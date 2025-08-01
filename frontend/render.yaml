@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: cdl-backend
+    env: python
+    buildCommand: ""
+    startCommand: bash start.sh
+    envVars:
+      - key: FLASK_ENV
+        value: production
+    plan: free
+    region: oregon
