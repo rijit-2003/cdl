@@ -59,7 +59,7 @@ function ScientistDetail() {
 
   return (
     <div className="detail-container">
-      <img src={`/images/${scientist.image}`} alt={scientist.name} className="detail-image" />
+      <img src={`/images/${scientist.image?.trim()}`} alt={scientist.name} className="detail-image" />
       <h2>{scientist.name}</h2>
       <h4>{scientist.period}</h4>
       <p>{scientist.description}</p>
