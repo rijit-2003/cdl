@@ -5,7 +5,7 @@ import os
 import json
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, origins="*")
 
 # SQLite config
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///cdl.db'
