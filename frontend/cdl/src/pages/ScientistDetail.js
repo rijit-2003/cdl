@@ -24,7 +24,7 @@ function ScientistDetail() {
     };
 
     try {
-      const res = await fetch('http://127.0.0.1:5000/api/submit_answer', {
+      const res = await fetch('http://cdl-backend-dzho.onrender.com/api/submit_answer', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
