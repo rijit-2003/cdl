@@ -1,0 +1,137 @@
+[
+    {
+        "id": "eratosthenes",
+        "name": "Eratosthenes",
+        "period": "276–194 BCE",
+        "contribution": "Calculated the Earth's circumference.",
+        "image": "/eratosthenes.jpg",
+        "description": "Eratosthenes, a Greek polymath and the chief librarian at the Library of Alexandria, made one of the earliest scientific estimates of Earth's circumference around 240 BCE. By comparing the angle of the Sun’s rays at noon in two cities—Syene and Alexandria—during the summer solstice, he deduced that the Earth must be spherical and calculated its circumference with remarkable precision using simple geometry and basic instruments. His value differed from modern measurements by less than 2%, showcasing the ingenuity of ancient Greek science. Besides this, Eratosthenes also developed the Sieve of Eratosthenes to find prime numbers and made contributions to geography, proposing a system of latitude and longitude. He was among the first to suggest that a leap day be added every four years. His work laid critical groundwork for geodesy, astronomy, and cartography, and he stands out as one of antiquity's most forward-thinking scholars.",
+        "question":"Estimate the Earth's circumference using the distance between Syene and Alexandria. (in km)"
+    },
+    {
+        "id": "aristarchus",
+        "name": "Aristarchus of Samos",
+        "period": "310–230 BCE",
+        "contribution": "Proposed the heliocentric model of the solar system.",
+        "image": "/aristarchus.jpeg",
+        "description" : "Aristarchus was a pioneering Greek astronomer and mathematician who lived around 310–230 BCE. Often regarded as the “Copernicus of antiquity,” he was the first known person to propose a heliocentric model of the solar system, placing the Sun at the center and asserting that Earth revolved around it. This was a radical departure from the prevailing geocentric view held since Aristotle. Aristarchus also attempted to calculate the relative distances and sizes of the Sun and Moon using simple geometry, arriving at values that, though not accurate, were astonishingly ambitious for his time. His heliocentric theory was rejected by most of his contemporaries, largely because the tools of the time couldn't detect stellar parallax, which would prove Earth's motion. Nevertheless, his work greatly influenced later astronomers, including Copernicus. Aristarchus's daring vision marks him as a bold thinker centuries ahead of his time.",
+        "question":" Estimate the ratio of the distance from the Earth to the Sun and the Moon."
+    },
+    {
+        "id": "hipparchus",
+        "name": "Hipparchus",
+        "period": "190–120 BCE",
+        "contribution": "Measured the distance to the Moon.",
+        "image": "/hipparchus.jpg",
+         "description": "Hipparchus of Nicaea (190–120 BCE) is considered the founder of trigonometry and one of the greatest astronomers of antiquity. He made remarkably accurate measurements of the length of the year and is credited with creating the first known star catalog. Most famously, Hipparchus measured the distance to the Moon using observations of solar eclipses and parallax, providing one of the earliest attempts at celestial triangulation. He discovered the precession of the equinoxes—a slow wobble in Earth's axis—and used trigonometric methods to improve astronomical calculations. His work laid the foundation for Ptolemy’s later model and influenced Islamic and Renaissance astronomy. Hipparchus also developed a coordinate system to describe positions of celestial objects, akin to modern latitude and longitude. Though much of his work survives only through references, his precision and methodological approach marked a leap toward modern scientific astronomy.",
+         "question":" How many stars did Hipparchus catalog in his star catalog?"
+    },
+    {
+        "id": "ptolemy",
+        "name": "Ptolemy",
+        "period": "100–170 CE",
+        "contribution": "Refined geocentric model.",
+        "image": "/ptolemy.avif",
+         "description": "Claudius Ptolemy (c. 100–170 CE) was a Greco-Roman mathematician, astronomer, and geographer best known for formalizing the geocentric model of the universe in his monumental work, the Almagest. According to his system, Earth stood immobile at the center while the Sun, Moon, planets, and stars orbited it in complex paths involving epicycles and deferents. Though incorrect, this model was mathematically elegant and successfully predicted planetary motions, becoming the dominant cosmological framework for over 1,400 years. Ptolemy’s influence extended into the Islamic Golden Age and the European Middle Ages, shaping scientific thought until the Copernican revolution. He also contributed to optics, music theory, and geography, where he produced detailed world maps and discussed latitude and longitude. Ptolemy’s work represented the culmination of ancient Greek astronomy, and despite its eventual supersession, his systematic approach helped define the structure of astronomical models for centuries.",
+         "question":"How many epicycles did Ptolemy use in his model?"
+    },
+    {
+        "id": "copernicus",
+        "name": "Nicolaus Copernicus",
+        "period": "1473–1543",
+        "contribution": "Reintroduced heliocentrism; placed the Sun at the center.",
+        "image": "/copernicus.webp",
+        "description": "Nicolaus Copernicus (1473–1543) was a Renaissance astronomer who redefined our place in the cosmos. In his revolutionary book De revolutionibus orbium coelestium (On the Revolutions of the Heavenly Spheres), published in 1543, he proposed that the Sun—not Earth—was the center of the universe. This heliocentric model challenged the deeply entrenched Ptolemaic system and the geocentric worldview endorsed by the Church. Although Copernicus’s model still relied on circular orbits and epicycles, it offered a more elegant explanation of planetary motions and paved the way for a scientific revolution. His ideas inspired astronomers like Kepler, Galileo, and Newton to further refine our understanding of celestial mechanics. Copernicus was also a mathematician, physician, and economist, and he delayed the publication of his heliocentric theory, perhaps anticipating its controversial nature. Ultimately, his bold departure from tradition marked the dawn of modern astronomy.",
+        "question":"How many planets did Copernicus include in his heliocentric model (including Earth)?"
+    },
+    {
+        "id": "kepler",
+        "name": "Johannes Kepler",
+        "period": "1571–1630",
+        "contribution": "Formulated the laws of planetary motion.",
+        "image": "/kepler.jpg",
+         "description": "Johannes Kepler (1571–1630), a German mathematician and astronomer, revolutionized astronomy by formulating three fundamental laws of planetary motion. Using the meticulous observational data of Tycho Brahe, Kepler discovered that planets travel in elliptical orbits with the Sun at one focus, not in perfect circles as previously thought. His laws—detailing the shape, timing, and relationship between planetary orbits and their distances from the Sun—provided a crucial foundation for Newton’s later theory of gravitation. Kepler also explored the physics behind celestial motion, hinting at gravitational forces long before Newton. Beyond astronomy, he made significant contributions to optics, including the explanation of how the human eye forms images and how lenses work. A deeply spiritual man, Kepler viewed his work as uncovering the divine harmony of the universe. His rigorous blend of empirical data and mathematical insight marked a decisive shift from classical to modern science.",
+         "question":"What is the orbital period of Earth around the Sun, in years?"
+    },
+    {
+        "id": "galileo",
+        "name": "Galileo Galilei",
+        "period": "1564–1642",
+        "contribution": "Used telescopes to confirm heliocentrism.",
+        "image": "/galileo.avif",
+         "description": "Galileo Galilei (1564–1642) was a pioneering Italian physicist, astronomer, and mathematician whose telescopic discoveries provided compelling support for the Copernican heliocentric model. Using one of the earliest telescopes, he observed Jupiter’s moons, the phases of Venus, the rugged surface of the Moon, and sunspots—all challenging the prevailing view that celestial bodies were perfect and immutable. His findings directly contradicted the Ptolemaic geocentric model and strengthened the case for heliocentrism. Galileo’s advocacy of the Copernican system brought him into conflict with the Catholic Church, culminating in his famous trial and house arrest. Aside from astronomy, Galileo made foundational contributions to physics, including the laws of motion and experimental methods that would influence Newton. Often called the father of modern science, Galileo insisted on observation and mathematics as the true arbiters of truth, forever transforming the way humanity studies the natural world.",
+         "question":"How many large moons of Jupiter did Galileo discover?"
+    },
+    {
+        "id": "newton",
+        "name": "Isaac Newton",
+        "period": "1643–1727",
+        "contribution": "Explained gravity and motion.",
+        "image": "/newton.jpg",
+         "description": "Isaac Newton (1643–1727) was an English physicist, mathematician, and astronomer whose Principia Mathematica laid the foundations for classical mechanics. He formulated the laws of motion and universal gravitation, explaining both earthly and celestial motion within a single framework for the first time. Newton’s law of gravitation described how the force between two objects depends on their masses and the square of the distance between them, uniting the physics of falling apples with the motion of planets. He also invented calculus (independently alongside Leibniz), contributed to optics by showing that white light is composed of colors, and built one of the first reflecting telescopes. Newton's mathematical rigor and insistence on empirical validation redefined science. His law-based universe dominated physics for over two centuries, and his work marked the culmination of the Scientific Revolution. Newton’s contributions remain some of the most profound in human history.",
+         "question":""
+    },
+    {
+        "id": "bessel",
+        "name": "Friedrich Bessel",
+        "period": "1784–1846",
+        "contribution": "First to measure the parallax of a star.",
+        "image": "/bessel.jpg",
+         "description": "Friedrich Bessel (1784–1846) was a German astronomer and mathematician who achieved a major milestone in astronomy by being the first to measure the distance to a star using the method of stellar parallax. In 1838, he successfully determined the distance to the star 61 Cygni, confirming that Earth indeed moves through space—concrete evidence in favor of the heliocentric model. His work provided a critical observational pillar for Copernicus’s theory, centuries after it was first proposed. Bessel was also instrumental in refining astrometric techniques, developing mathematical tools for error analysis, and producing detailed star catalogs. His precision, meticulous observations, and mathematical sophistication made him one of the most respected astronomers of the 19th century. The Bessel functions in mathematics, which arise in solving certain types of differential equations, are named in his honor. His work bridged observational astronomy with precise mathematical modeling.",
+         "question":"What was the parallax angle (in arcseconds) Bessel measured for 61 Cygni?"
+    },
+    {
+        "id": "herschel",
+        "name": "William Herschel",
+        "period": "1738–1822",
+        "contribution": "Discovered Uranus and mapped deep-sky objects.",
+        "image": "/herschel.jpeg",
+         "description": "William Herschel (1738–1822) was a German-born British astronomer and composer who discovered the planet Uranus in 1781—the first new planet found in modern times. This unexpected discovery expanded the known solar system and dramatically increased interest in systematic sky surveys. Herschel went on to catalog thousands of stars, nebulae, and deep-sky objects, fundamentally transforming our understanding of the structure of the cosmos. He constructed some of the most powerful telescopes of his day and developed theories about the Milky Way's shape and the distribution of stars within it. Herschel also discovered infrared radiation while experimenting with sunlight and prisms. His methodical approach to observing the night sky inspired generations of astronomers, and he is often considered the father of modern observational astronomy. His sister, Caroline Herschel, was also a prominent astronomer and collaborator. Together, they changed how we see the universe.",
+         "question":"In which year did Herschel discover Uranus?"
+    },
+    {
+        "id": "bradley",
+        "name": "James Bradley",
+        "period": "1693–1762",
+        "contribution": "Discovered stellar aberration.",
+        "image": "/bradley.jpeg",
+         "description": "James Bradley (1693–1762) was an English astronomer best known for discovering stellar aberration, the apparent shift in star positions due to Earth’s motion around the Sun combined with the finite speed of light. This discovery, made in 1729, provided the first direct observational evidence that Earth orbits the Sun—an essential confirmation of heliocentrism. Bradley’s work was critical in solidifying the Copernican model and helped resolve discrepancies in earlier star catalogs. He also discovered the nutation of Earth's axis, a subtle wobble superimposed on the precession motion, further advancing our understanding of Earth’s orientation in space. As the third Astronomer Royal, Bradley refined the Greenwich star catalog, significantly improving its accuracy. His work represented a leap forward in precision astronomy and helped lay the groundwork for future measurements of stellar parallax and deep-space observations. Bradley’s careful observational methods set a new standard in the field.",
+         "question":"What is the value (in arcseconds) of the aberration of starlight Bradley measured?"
+    },
+    {
+        "id": "hubble",
+        "name": "Edwin Hubble",
+        "period": "1889–1953",
+        "contribution": "Proved the universe is expanding using redshift.",
+        "image": "/hubble.jpeg",
+         "description": "Edwin Hubble (1889–1953) was an American astronomer who revolutionized our understanding of the universe by showing that it is vast and expanding. In the 1920s, using the powerful Hooker Telescope at Mount Wilson Observatory, Hubble observed Cepheid variable stars in the Andromeda Galaxy and determined it was far outside the Milky Way—proving that the universe is filled with countless galaxies. His most groundbreaking discovery came in 1929 when he observed that galaxies are receding from us, and the farther they are, the faster they move away. This relationship—now known as Hubble's Law—provided the first empirical evidence for the expanding universe and laid the foundation for the Big Bang theory. Hubble’s work marked a turning point in 20th-century cosmology. The Hubble Space Telescope, launched in 1990, is named in his honor and has continued to explore the universe he helped unveil.",
+         "question":"What is the Hubble constant (in km/s/Mpc)?"
+    },
+    {
+        "id": "leavitt",
+        "name": "Henrietta Swan Leavitt",
+        "period": "1868–1921",
+        "contribution": "Discovered the period-luminosity relation for Cepheids.",
+        "image": "/leavitt.jpg",
+         "description": "Henrietta Swan Leavitt (1868–1921) was an American astronomer whose discovery of the period-luminosity relationship in Cepheid variable stars transformed the field of cosmology. Working at the Harvard College Observatory as a 'computer' analyzing photographic plates, Leavitt noticed that Cepheids with longer pulsation periods were intrinsically brighter. This insight provided a 'standard candle' for measuring cosmic distances. Although she never received widespread recognition in her lifetime, her discovery enabled astronomers like Edwin Hubble to measure distances to faraway galaxies and demonstrate the universe’s expansion. Leavitt’s work provided the foundation for the modern cosmic distance ladder, making her one of the most important—yet initially overlooked—figures in the history of astronomy. Her contributions underscore the importance of meticulous observation and pattern recognition. Today, she is celebrated not only for her scientific impact but also for breaking barriers for women in science.",
+         "question":"What is the period (in days) of a classical Cepheid variable star with an absolute magnitude of -4?"
+    },
+    {
+        "id": "friedmann",
+        "name": "Alexander Friedmann",
+        "period": "1888–1925",
+        "contribution": "Developed solutions to Einstein's equations.",
+        "image": "/friedmann.png",
+        "description": "Alexander Friedmann (1888–1925) was a Russian physicist and mathematician who introduced the idea that the universe could be expanding, based on Einstein’s general theory of relativity. In 1922, he derived a set of equations—now known as the Friedmann equations—that described dynamic, non-static cosmological models. At the time, Einstein favored a static universe and initially resisted Friedmann's conclusions. However, Friedmann's solutions showed that the curvature and expansion rate of the universe depend on its matter and energy content, anticipating later discoveries by Hubble and others. Although Friedmann died young and his work went largely unnoticed during his lifetime, it became foundational to the Big Bang theory and modern cosmology. His vision introduced a dynamic view of the universe, where expansion and contraction are possible outcomes, depending on cosmic conditions. Friedmann’s theoretical foresight profoundly shaped our modern understanding of the cosmos.",
+        "question":" How many solutions to Einstein's equations did Friedmann propose for the universe’s curvature?"
+    },
+    {
+        "id": "riess",
+        "name": "Adam Riess",
+        "period": "1969–present",
+        "contribution": "Helped discover expansion of the universe.",
+        "image": "/riess.jpg",
+        "description": "Adam Riess (born 1969) is an American astrophysicist and Nobel laureate whose work has transformed our understanding of the universe’s fate. In the late 1990s, as part of the High-Z Supernova Search Team, Riess helped discover that the universe’s expansion is accelerating—contrary to expectations that it should be slowing due to gravity. By studying Type Ia supernovae as standard candles, Riess and his colleagues found that distant galaxies were receding faster than expected, pointing to the existence of a mysterious force later termed 'dark energy'. This groundbreaking discovery earned him the 2011 Nobel Prize in Physics alongside Saul Perlmutter and Brian Schmidt. Riess continues to be at the forefront of precision cosmology, working to resolve the Hubble tension—discrepancies in the rate of expansion of the universe. His work has opened one of the most profound puzzles in physics and cosmology today.",
+        "question":"What is the approximate value (in %) of the accelerated expansion rate (dark energy share) discovered by Riess?"
+    }
+]

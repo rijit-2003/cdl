@@ -1,17 +1,30 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import data from '../assets/scientists.json';
 import '../components/styles/ScientistDetail.css';
 
 function ScientistDetail() {
   const { id } = useParams();
-  const scientist = data.find(s => s.id === id);
 
+  const [scientist, setScientist] = useState(null);
   const [answer, setAnswer] = useState('');
   const [result, setResult] = useState('');
   const [loading, setLoading] = useState(false);
 
-  if (!scientist) return <div>Scientist not found</div>;
+  useEffect(() => {
+    // Fetch scientist data from backend
+    const fetchScientist = async () => {
+      try {
+        const res = await fetch(`https://cdl-backend-dzho.onrender.com/api/scientist/${id}`);
+        const data = await res.json();
+        setScientist(data);
+      } catch (err) {
+        console.error(err);
+        setScientist(null);
+      }
+    };
+
+    fetchScientist();
+  }, [id]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,17 +37,13 @@ function ScientistDetail() {
     };
 
     try {
-      const res = await fetch('http://cdl-backend-dzho.onrender.com/api/submit_answer', {
+      const res = await fetch('https://cdl-backend-dzho.onrender.com/api/submit_answer', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
         body: JSON.stringify(payload)
       });
-
-      if (!res.ok) {
-        throw new Error(`Server error: ${res.status}`);
-      }
 
       const data = await res.json();
       setResult(data.message || 'Unexpected response');
@@ -46,6 +55,8 @@ function ScientistDetail() {
     }
   };
 
+  if (!scientist) return <div>Loading scientist details...</div>;
+
   return (
     <div className="detail-container">
       <img src={`/images/${scientist.image}`} alt={scientist.name} className="detail-image" />
@@ -55,7 +66,7 @@ function ScientistDetail() {
 
       <div className="challenge-box">
         <h3>Challenge Problem:</h3>
-        <p>{scientist.question || "What is the orbital period of a planet 1 AU from a Sun-like star (in years)?"}</p>
+        <p>{scientist.question || "No question found."}</p>
 
         <form onSubmit={handleSubmit}>
           <input
