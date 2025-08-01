@@ -5,7 +5,7 @@ import os
 import json
 
 app = Flask(__name__)
-CORS(app, origins=["https://cdl-front.onrender.com"])
+CORS(app, origins=["https://cdl-front.onrender.com", "http://localhost:3000"])
 
 
 # SQLite config
@@ -79,7 +79,7 @@ def submit_answer():
         "ptolemy": 80,
         "copernicus": 6,
         "kepler": 1,
-        "newton": 6.674,
+        "newton": 9.81,
         "galileo": 4,
         "bessel": .314,
         "herschel": 1781,

@@ -69,7 +69,7 @@
         "contribution": "Explained gravity and motion.",
         "image": "/newton.jpg",
          "description": "Isaac Newton (1643–1727) was an English physicist, mathematician, and astronomer whose Principia Mathematica laid the foundations for classical mechanics. He formulated the laws of motion and universal gravitation, explaining both earthly and celestial motion within a single framework for the first time. Newton’s law of gravitation described how the force between two objects depends on their masses and the square of the distance between them, uniting the physics of falling apples with the motion of planets. He also invented calculus (independently alongside Leibniz), contributed to optics by showing that white light is composed of colors, and built one of the first reflecting telescopes. Newton's mathematical rigor and insistence on empirical validation redefined science. His law-based universe dominated physics for over two centuries, and his work marked the culmination of the Scientific Revolution. Newton’s contributions remain some of the most profound in human history.",
-         "question":""
+         "question":"What is the value of the acceleration due to gravity as derived from Newton's Principia?"
     },
     {
         "id": "bessel",
